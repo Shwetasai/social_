@@ -4,4 +4,10 @@ __pycache__
 **/migrations/
 
 env
-media\post images
+# Ignore all migration files
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Ignore media files
+media/*
+!media/post_images/
